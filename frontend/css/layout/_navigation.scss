@@ -1,1 +1,35 @@
 // File: _navigation.scss
+
+.main-navigation {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            margin: 0 0 0 2rem;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            font-size: 14px;
+            
+
+            i {
+                margin: 0 .15rem 0 0;
+                color: $grey-800;
+            }
+
+            a {
+                font-weight: 700;
+                color: $grey-800;
+                text-decoration: none;
+            }
+        }
+    }
+}
