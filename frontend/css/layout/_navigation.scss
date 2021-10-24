@@ -7,27 +7,31 @@
     align-items: center;
     justify-content: space-between;
 
+    .logo {
+        width: 9%;
+    }
+
     ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         li {
-            margin: 0 0 0 2rem;
+            margin: 0 0 0 4rem;
             display: flex;
             align-content: center;
             align-items: center;
-            font-size: 14px;
+            font-size: 16px;
             
 
             i {
-                margin: 0 .15rem 0 0;
-                color: $grey-800;
+                margin: 0 .8rem 0 0;
+                color: $white;
             }
 
             a {
                 font-weight: 700;
-                color: $grey-800;
+                color: $white;
                 text-decoration: none;
             }
         }

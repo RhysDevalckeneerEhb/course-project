@@ -1,0 +1,39 @@
+// File: _banner.scss
+
+.app-banner {
+    margin-top: 5rem;
+    width: 100%;
+    padding: 3.5rem 0;
+    background-color: $grey-100;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        article {
+            width: 70%;
+
+            p {
+                color: #616266;
+                font-size: 17px;
+            }
+        }
+
+        section {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 40%;
+                margin: 0 0 0 .5rem;
+            }
+
+            #google-play {
+                width: 42.5%;
+            }
+        }
+    }
+}

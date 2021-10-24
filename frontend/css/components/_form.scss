@@ -1,0 +1,50 @@
+// File: _form.scss
+
+form {
+    width: 100%;
+    // background-color: $red-200;
+    position: absolute;
+    top: 39%;
+    padding: 1rem 0;
+
+    .container {
+        box-shadow: 0px 0px 12px 0px rgba(97, 98, 102, 0.1);
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(97, 98, 102, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            margin: 0;
+            padding: 1.5rem;
+            width: 85%;
+            border: none;
+            border-radius: 6px 0 0 6px;
+        }
+
+        input::placeholder {
+            font-weight: 600;
+            font-size: 16px;
+            color: #D7D7D7;
+        }
+
+        input::focus {
+            border: none;
+        }
+    
+        button {
+            margin: 0;
+            border: none;
+            padding: 1.5rem;
+            width: 15%;
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: .1rem;
+            color: $white;
+            background-color: $grey-800;
+            border-radius: 0 6px 6px 0px;
+        }
+    }
+
+    
+}

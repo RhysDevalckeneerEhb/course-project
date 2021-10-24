@@ -23,7 +23,7 @@
         <meta name="distribution" content="Global">
         <meta name="rating" content="General">
 
-        <title>Course Project</title>
+        <title>Search - Course Project</title>
 
         <!-- Broweser Icons -->
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
@@ -38,7 +38,7 @@
         <!-- Google Fonts -->
 
         <!-- Add style -->
-        <script src="./dist/main.js"></script>
+        <script src="../dist/main.js"></script>
 
     </head>
 
@@ -46,22 +46,33 @@
         <header>
             <div class="container">
                 <nav class="main-navigation">
-                    <img src="./img/movietime_logo_blue.png" alt="logo" class="logo">
+                    <img src="../img/movietime_logo_blue.png" alt="logo" class="logo">
 
                     <ul>
                         <li>
-                            <a href=""><i class="fas fa-home-alt"></i> Home</a>
+                            <a href="../index.html"><i class="fas fa-home-alt"></i> Home</a>
                         </li>
                         <li>
-                            <a href="./pages/search.html"><i class="fas fa-search"></i> Search</a>
+                            <a href="./search.html"><i class="fas fa-search"></i> Search</a>
                         </li>
                         <li>
                             <a href=""><i class="fas fa-plus"></i> Watchlist</a>
                         </li>
                     </ul>
                 </nav>
+
+
             </div>
         </header>
+
+        <form>
+            <div class="container">
+                <input placeholder="Search for a movie, tv show, person...">
+                <button type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </form>
 
         <section class="app-banner">
             <div class="container">
@@ -70,8 +81,8 @@
                     <p>Download our mobile app and add movies to your list from anywhere.</p>
                 </article>
                 <section>
-                    <img src="./img/640px-Google_Play_Store_badge_EN.svg.png" id="google-play">
-                    <img src="./img/app-store.png">
+                    <img src="../img/640px-Google_Play_Store_badge_EN.svg.png" id="google-play">
+                    <img src="../img/app-store.png">
                 </section>
             </div>
         </section>
